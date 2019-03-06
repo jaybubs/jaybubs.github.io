@@ -3765,15 +3765,20 @@ input, select, textarea {
 
 /* button */
 	.myButton{
-		background:url(images/adscft.jpg) no-repeat;
+		background:url(images/chicken1.svg) no-repeat;
 		background-size:contain;
 		background-position:center;
 		cursor:pointer;
 		border:solid;
-		
+		font-family: Comic Sans MS;
+		font-style: bold;
+		padding: 50px 50px;
+		display:inline-block;
 	}
 
-	.myButton:active  /* use Dot here */
+	.myButton:hover  /* use Dot here */
 	{   
-		background:url(images/adscft.jpg) no-repeat;
+		background:url(images/turtle1.svg) no-repeat;
+		background-size:contain;
+		background-position:center;
 	}
