@@ -3762,3 +3762,18 @@ input, select, textarea {
 			}
 
 		}
+
+/* button */
+	.myButton{
+		background:url(images/adscft.jpg) no-repeat;
+		background-size:contain;
+		background-position:center;
+		cursor:pointer;
+		border:solid;
+		
+	}
+
+	.myButton:active  /* use Dot here */
+	{   
+		background:url(images/adscft.jpg) no-repeat;
+	}
