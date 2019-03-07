@@ -3800,7 +3800,7 @@ input, select, textarea {
 		-ms-transform: translate(-50%, -50%);
 	}
 	
-	/*.btncn .btn2:hover{background:url(images/turtle1.svg) no-repeat;}*/
+	.btncn .btn2:hover{background:url(images/turtle1.svg) no-repeat;}
 	
 	.btncn .btn3{position:absolute;
 		top: 50%;
@@ -3808,5 +3808,5 @@ input, select, textarea {
 		transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
 	}
-	/*.btncn .btn3:hover{background:url(images/chicken1.svg) no-repeat;}*/
+	.btncn .btn3:hover{background:url(images/chicken1.svg) no-repeat;}
 	
