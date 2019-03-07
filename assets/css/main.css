@@ -3764,8 +3764,8 @@ input, select, textarea {
 		}
 
 /* button */
-	.myButton{
-		background:url(images/chicken1.svg) no-repeat;
+	.myButton,.btn2,.btn3{
+		
 		background-size:contain;
 		background-position:center;
 		cursor:pointer;
@@ -3774,11 +3774,39 @@ input, select, textarea {
 		font-style: bold;
 		padding: 50px 50px;
 		display:inline-block;
+		position:relative;
 	}
-
-	.myButton:hover  /* use Dot here */
+	.btn2{background:url(images/chicken1.svg) no-repeat;}
+	.btn3{background:url(images/chicken1.svg) no-repeat;}
+	
+	
+	.myButton:hover, .btn2:hover, .btn3:hover
 	{   
-		background:url(images/turtle1.svg) no-repeat;
 		background-size:contain;
 		background-position:center;
 	}
+	.btn2:hover{background:url(images/turtle1.svg) no-repeat;}
+	.btn3:hover{background:url(images/chicken1.svg) no-repeat;}
+	
+	
+	
+/* container */
+	.btncn{position:relative; width:50%;}
+	
+	.btncn .btn2{position:absolute;
+		top: 50%;
+		left: 25%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+	}
+	
+	/*.btncn .btn2:hover{background:url(images/turtle1.svg) no-repeat;}*/
+	
+	.btncn .btn3{position:absolute;
+		top: 50%;
+		left: 75%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+	}
+	/*.btncn .btn3:hover{background:url(images/chicken1.svg) no-repeat;}*/
+	
